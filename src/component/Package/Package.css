@@ -20,7 +20,9 @@
 
 .package-boxes {
   display: flex;
+  overflow: hidden;
   padding-top: 220px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 940px) {
@@ -30,6 +32,17 @@
 
   .package-boxes {
     padding-top: 100px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+
+  .package {
+    height: 100%;
+  }
+
+  .package-boxes {
     flex-direction: column;
   }
 }

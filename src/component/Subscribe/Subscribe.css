@@ -37,20 +37,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;
+    width: 500px;
 }
 
 .subs-email > input {
-    width: 100%;
-    padding: 15px;
+    width: 80%;
+    padding: 15px 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border: 1px solid lightgray;
     outline: none;
+    text-indent: 10px;
 }
 
+
 .subs-email > button {
-    padding: 15px 25px;
+    padding: 16px 25px;
     background-color: var(--primary-red);
     border: none;
     border-top-right-radius: 15px;
@@ -69,6 +71,13 @@
     }
 
     .subs-email {
-        padding: 0px 50px;
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .subs-email > input {
+        width: 50%;
     }
 }
