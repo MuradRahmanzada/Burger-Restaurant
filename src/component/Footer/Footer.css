@@ -1,8 +1,7 @@
 .footer {
   width: 100%;
+  height: 40vh;
   background-color: #222222;
-  margin-top: 100px;
-  height: 50vh;
   display: flex;
   align-items: center;
   text-align: center;
