@@ -1,4 +1,4 @@
-PSD -  <a href="https://www.freepik.com/free-psd/web-template-burger-restaurant_7349679.htm#query=website%20templates&position=19&from_view=keyword">Link</a>
+<a href='https://www.freepik.com/psd/restaurant-website'>Restaurant website psd created by freepik - www.freepik.com</a>
 
 
 
