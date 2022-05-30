@@ -1,4 +1,4 @@
-<a href='https://www.freepik.com/psd/restaurant-website'>Restaurant website psd created by freepik - www.freepik.com</a>
+<a href='https://www.freepik.com/psd/restaurant-website'>Restaurant website psd created by freepik </a>
 
 
 
