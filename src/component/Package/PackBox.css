@@ -1,0 +1,65 @@
+.packBox {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 55px;
+    color: var(--primary-red);
+    margin: 30px;
+    transition: 0.3s ease-in;
+}
+
+.packBox:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.packBox > img {
+    width: 100px;
+    padding-bottom: 2rem;
+}
+
+.packBox > h1 {
+    font-family: 'Archivo',sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.packBox > h2  {
+    font-family: 'Archivo',sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.packBox > p {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.packBox > button {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    padding: 10px 0px;
+    background-color: var(--primary-red);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 940px) {
+    .packBox {
+        
+        flex-direction: column;
+    }
+}

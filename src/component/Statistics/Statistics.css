@@ -1,0 +1,42 @@
+.statistics {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-red);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 100px;
+  font-family: "Archivo", sans-serif;
+}
+
+.statistics-txt > h1 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.statistics-txt > p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffffd0;
+}
+
+
+.statistics-boxes {
+    padding-top: 150px;
+    display: flex;
+}
+
+
+@media screen and (max-width: 940px) {
+  
+  .statistics {
+    height: 100%;
+  }
+  
+  .statistics-boxes {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,75 @@
+.footer {
+  width: 100%;
+  background-color: #222222;
+  margin-top: 100px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.footer .title > h3 {
+  color: #ffffffd0;
+  letter-spacing: 2px;
+  font-family: "Archivo", sans-serif;
+}
+
+.footer .title > p {
+  margin-top: 1rem;
+  font-family: "Nunito", sans-serif;
+  color: #ffffffc5;
+  width: 300px;
+}
+
+.footer .title .icons {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer .title .icons .MuiSvgIcon-root {
+  color: #ffffffc5;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.footer .title .icons .MuiSvgIcon-root > path {
+  background: red;
+}
+
+.footer .title .icons .MuiSvgIcon-root:hover {
+  transform: scale(1.25);
+}
+
+.footer > ul > li {
+  font-family: "Nunito", sans-serif;
+  text-transform: none;
+  margin: 10px;
+  color: #ffffffc5;
+  cursor: pointer;
+}
+
+.footer > ul > li.active {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 18.72px;
+  color: #ffffffc5;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.ul-right {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 940px) {
+  .footer {
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

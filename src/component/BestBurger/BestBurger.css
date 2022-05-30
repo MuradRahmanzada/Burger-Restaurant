@@ -1,0 +1,71 @@
+.bestBurger {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f64b3c;
+  transition: 0.5s ease-in;
+}
+
+.bestBurger-lf > img:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.bestBurger-rg {
+  margin-right: 3rem;
+}
+
+.bestBurger-rg > h1 {
+  color: #ffffff;
+  font-family: "Archivo", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.bestBurger-rg > p {
+  color: #ffffffd0;
+
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+
+.bestBurger-rg > button {
+  padding: 15px 55px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  color: var(--primary-red);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 940px) {
+  .bestBurger {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+  }
+
+  .bestBurger-lf > img {
+    width: 300px;
+    padding-bottom: 2rem;
+  }
+
+  .bestBurger-rg {
+    justify-content: center;
+    padding-left: 35px;
+  }
+
+  .bestBurger-rg > button {
+    margin-bottom: 1rem;
+  }
+}

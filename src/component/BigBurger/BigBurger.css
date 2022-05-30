@@ -1,0 +1,69 @@
+.bigBurger {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("../../../public/assets/bg-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-in;
+}
+
+.bigBurger-rg > img:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.bigBurger-rg {
+  margin-right: 3rem;
+}
+
+.bigBurger-lf {
+  color: var(--primary-red);
+}
+
+.bigBurger-lf > h1 {
+  font-family: "Archivo", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.bigBurger-lf > p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.bigBurger-lf > button {
+  padding: 15px 55px;
+  background-color: var(--primary-red);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 940px) {
+  .bigBurger {
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .bigBurger-rg > img {
+    width: 300px;
+    padding-top: 2rem;
+  }
+
+  .bigBurger-rg {
+    padding-left: 45px;
+  }
+}

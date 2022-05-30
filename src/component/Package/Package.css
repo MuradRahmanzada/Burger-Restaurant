@@ -1,0 +1,35 @@
+.package {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../public/assets/bgPackage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.package-txt > h1 {
+  font-family: "Archivo", sans-serif;
+  color: var(--primary-red);
+  letter-spacing: 2px;
+}
+
+.package-boxes {
+  display: flex;
+  padding-top: 220px;
+}
+
+@media screen and (max-width: 940px) {
+  .package {
+    height: 100%;
+  }
+
+  .package-boxes {
+    padding-top: 100px;
+    flex-direction: column;
+  }
+}

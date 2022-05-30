@@ -1,0 +1,74 @@
+.subscribe {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../public/assets/subs-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.subs-txt {
+    margin-bottom: 100px;
+}
+
+.subs-txt > h1 {
+    font-family: 'Archivo',sans-serif;
+    letter-spacing: 2px;
+    color: var(--primary-red);
+}
+
+.subs-txt > p {
+    color: var(--primary-red);
+    font-family: 'Nunito',sans-serif;
+    font-size: 22px;
+    margin-top: 2rem;
+}
+
+.subs-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+}
+
+.subs-email > input {
+    width: 100%;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.subs-email > button {
+    padding: 15px 25px;
+    background-color: var(--primary-red);
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #ffffffd0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 940px) {
+    
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .subs-email {
+        padding: 0px 50px;
+    }
+}
